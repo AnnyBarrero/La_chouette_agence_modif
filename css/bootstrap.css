@@ -1658,7 +1658,8 @@ mark {
 }
 
 .text-center {
-    text-align: center
+    text-align: center;
+    margin: 0 auto;
 }
 
 .text-justify {
@@ -2011,6 +2012,8 @@ pre code {
 }
 
 .row {
+    flex-wrap: wrap;
+    display: flex;
     margin-right: -15px;
     margin-left: -15px
 }
