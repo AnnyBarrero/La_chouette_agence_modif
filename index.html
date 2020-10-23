@@ -247,7 +247,6 @@
 		<script src="./js/jqBootstrapValidation.min.js"></script>
 		<script src="./js/formHandler.min.js" defer></script>
 		<script src="./js/blocs.min.js" defer></script>
-		<script src="./js/jquery.touchSwipe.js" defer></script>
 		<script>
 		// <!-- ----scrolltop---- -->
 			$(window).scroll(function() {
@@ -275,18 +274,7 @@
 			$(this).button('loading');
 			});
 			});
-			// ---touchSwipe---
-			$(function() {
-			$("#test").swipe( {
-			//Generic swipe handler for all directions
-			swipe:function(event, direction, distance, duration, fingerCount, fingerData) {
-			$(this).text("You swiped " + direction );
-			}
-			});
-			//Set some options later
-			$("#test").swipe( {fingers:2} );
-			});
-
+			
 			</script>
 			<!-- Global site tag (gtag.js) - Google Analytics -->
 			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-180201265-1"></script>

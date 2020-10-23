@@ -160,19 +160,8 @@
 				<script src="./js/jqBootstrapValidation.min.js"></script>
 				<script src="./js/formHandler.min.js" defer></script>
 				<script src="./js/blocs.min.js" defer></script>
-				<script src="./js/jquery.touchSwipe.min.js" defer></script>
 				<script>
-				// ---touchSwipe---
-				$(function() {
-				$("#test").swipe( {
-				//Generic swipe handler for all directions
-				swipe:function(event, direction, distance, duration, fingerCount, fingerData) {
-				$(this).text("You swiped " + direction );
-				}
-				});
-				//Set some options later
-				$("#test").swipe( {fingers:2} );
-				});
+				
 				// ---map---
 				var map = new GMaps({
 				el: '#map',
