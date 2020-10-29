@@ -243,39 +243,39 @@
          <!-- Footer - bloc-8 END -->
       </div>
       <!-- JS -->
-      <script src="./js/jquery-2.1.0.js" defer></script>
-      <script src="./js/bootstrap.js" defer></script>
+      <script src="./js/jquery-2.1.0.min.js" defer></script>
+      <script src="./js/bootstrap.min.js" defer></script>
       <script src="https://kit.fontawesome.com/965757b03a.js" crossorigin="anonymous"></script>
       <script src="./js/jqBootstrapValidation.min.js" defer></script>
       <script src="./js/formHandler.min.js" defer></script>
       <script src="./js/blocs.min.js" defer></script>
       <script>
          // <!-- ----scrolltop---- -->
-         	$(window).scroll(function() {
-         	if ($(window).scrollTop() == 0) {
-         	$('#scrollToTop').fadeOut("fast");
-         	} else {
-         	if ($('#scrollToTop').length == 0) {
-         	$('body').append('<div id="scrollToTop">' + '<a href="#"></a>' + '</div>');
-         	}
-         	$('#scrollToTop').fadeIn("fast");
-         	}
-         	});
-         			
-         	$(document).ready(function() {
-         	$('body').on('click', '#scrollToTop a', function(event) {
-         	event.preventDefault();
-         	$('html,body').animate({
-         	scrollTop: 0
-         	}, 'slow');
-         	});
-         	});
-         	$(document).ready(function(){
-         	$('#button').button();
-         	$('#button').click(function() {
-         	$(this).button('loading');
-         	});
-         	});
+		$(window).scroll(function() {
+		if ($(window).scrollTop() == 0) {
+		$('#scrollToTop').fadeOut("fast");
+		} else {
+		if ($('#scrollToTop').length == 0) {
+		$('body').append('<div id="scrollToTop">' + '<a href="#"></a>' + '</div>');
+		}
+		$('#scrollToTop').fadeIn("fast");
+		}
+		});
+		
+		$(document).ready(function() {
+		$('body').on('click', '#scrollToTop a', function(event) {
+		event.preventDefault();
+		$('html,body').animate({
+		scrollTop: 0
+		}, 'slow');
+		});
+		});
+		$(document).ready(function(){
+		$('#button').button();
+		$('#button').click(function() {
+		$(this).button('loading');
+		});
+		});	
          	
          	
       </script>
